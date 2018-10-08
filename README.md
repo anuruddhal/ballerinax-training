@@ -1,2 +1,2 @@
-# ballerinax-traning
-Resources to Kubernetes &amp;  Ballerianx introduction
+# Ballerinax Training Resources
+Resources to Kubernetes &amp;  Ballerianx introduction training
