@@ -1,9 +1,13 @@
 ## Deploy Kubernetes Resources
 
 ```kubectl create namespace wso2```
+
 ```kubectl apply -f nginx-ingress/namespaces/nginx-ingress.yaml -Rf nginx-ingress```
+
 ```kubectl create -f service.yaml```
+
 ```kubectl create -f deployment.yaml```
+
 ```kubectl create -f ingress.yaml```
 
 
