@@ -15,14 +15,15 @@
 ### To Access the Ballerina Service
 
 #### Nodeport
-kubectl get svc -n wso2
+`kubectl get svc -n wso2`
+
 NAME         TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
 helloworld   NodePort   10.97.247.125   <none>        9090:32100/TCP   49s
 
-curl http://127.0.0.1:32100/helloWorld/sayHello
+`curl http://127.0.0.1:32100/helloWorld/sayHello`
 
 #### Ingress
-kubectl get ingress -n wso2
+`kubectl get ingress -n wso2`
 
 Result:
 NAME                 HOSTS        ADDRESS          PORTS     AGE
